@@ -74,7 +74,7 @@ var quaternary4d = require( '@stdlib/array-base-quaternary4d' );
 Applies a quaternary callback to elements in four four-dimensional nested input arrays and assigns results to elements in a four-dimensional nested output array.
 
 ```javascript
-var add = require( '@stdlib/math-base-ops-add4' );
+var add = require( '@stdlib/number-float64-base-add4' );
 var zeros4d = require( '@stdlib/array-base-zeros4d' );
 
 var x = [ [ [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ] ] ];
@@ -116,7 +116,7 @@ The function accepts the following arguments:
 var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var filled4dBy = require( '@stdlib/array-base-filled4d-by' );
 var zeros4d = require( '@stdlib/array-base-zeros4d' );
-var add = require( '@stdlib/math-base-ops-add4' );
+var add = require( '@stdlib/number-float64-base-add4' );
 var quaternary4d = require( '@stdlib/array-base-quaternary4d' );
 
 var shape = [ 1, 3, 3, 3 ];
@@ -178,7 +178,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
