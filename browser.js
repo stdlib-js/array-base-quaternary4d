@@ -1,3 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-var e,f;e=this,f=function(){"use strict";return function(e,f,o){var n,t,i,r,d,u,s,a,l,p,c,y,b,h,m,g,v,x,T,j,q,k,w,z,A,B,C,D;if(n=f[3],t=f[2],i=f[1],r=f[0],!(n<=0||t<=0||i<=0||r<=0))for(z=e[0],A=e[1],B=e[2],C=e[3],D=e[4],a=0;a<r;a++)for(T=z[a],j=A[a],q=B[a],k=C[a],w=D[a],s=0;s<i;s++)for(h=T[s],m=j[s],g=q[s],v=k[s],x=w[s],u=0;u<t;u++)for(l=h[u],p=m[u],c=g[u],y=v[u],b=x[u],d=0;d<n;d++)b[d]=o(l[d],p[d],c[d],y[d])}},"object"==typeof exports&&"undefined"!=typeof module?module.exports=f():"function"==typeof define&&define.amd?define(f):(e="undefined"!=typeof globalThis?globalThis:e||self).quaternary4d=f();
-//# sourceMappingURL=browser.js.map
